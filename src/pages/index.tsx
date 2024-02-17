@@ -49,18 +49,7 @@ export default function Home() {
       <div className={styles.card}>
         <h3>Conteudo exclusivo desbloqueado!</h3>
         <p>Sua NFT desbloqueou o conteudo exclusivo, aproveite bem :D</p>
-        <p>Clique em{" "}
-        <a
-          className={styles.link}
-          href="https://launchpad.heymint.xyz/mint/blpass"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          continuar
-        </a>
         
-
-        </p>
         {contractMetadata && (
           <div className={styles.nft}>
             <MediaRenderer
