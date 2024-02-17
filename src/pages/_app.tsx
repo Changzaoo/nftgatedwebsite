@@ -21,7 +21,7 @@ function MyApp({ Component, pageProps }) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
           name="description"
-          content="conteudo exclusivo para holder's do pass"
+          content="Learn how to use the thirdweb Auth SDK to create an NFT Gated Website"
         />
       </Head>
       <Component {...pageProps} />
