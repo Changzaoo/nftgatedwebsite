@@ -50,7 +50,7 @@ export default function Login() {
 
       <div className={styles.card}>
         <h3>Conteudo exclusivo para holder</h3>
-        <p>Você precisa ter pelo menos 1 NFT da coleção!</p>
+        <p>Você precisa ter pelo menos 1 NFT da coleção abaixo:</p>
 
         {contractMetadata && (
           <div className={styles.nft}>
@@ -66,7 +66,7 @@ export default function Login() {
             </div>
           </div>
         )}
-        {contractLoading && <p></p>}
+        {contractLoading && <p>Loading...</p>}
 
         <ConnectWallet theme="dark" className={styles.connect} />
       </div>

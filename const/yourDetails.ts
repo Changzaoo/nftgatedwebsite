@@ -2,7 +2,7 @@
 export const contractAddress = "0x09F054c1F8BF1a57f46978baA89d593A118221B5";
 
 // Replace this with your domain name.
-export const domainName = "";
+export const domainName = "balde-gold.vercel.app/";
 
 // Minimum number of tokens required to access
 export const minimumBalance = 1;

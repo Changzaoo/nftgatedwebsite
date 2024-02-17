@@ -49,8 +49,9 @@ export default function Home() {
       <div className={styles.card}>
         <h3>Conteudo exclusivo desbloqueado!</h3>
         <p>Sua NFT desbloqueou o conteudo exclusivo, aproveite bem :D</p>
-        <p>
+        <p>Clique em{" "}
         
+      
         
 
         </p>
@@ -59,8 +60,8 @@ export default function Home() {
             <MediaRenderer
               src={contractMetadata.image}
               alt={contractMetadata.name}
-              width="90px"
-              height="90px"
+              width="70px"
+              height="70px"
             />
             <div className={styles.nftDetails}>
               <h4>{contractMetadata.name}</h4>
@@ -68,7 +69,7 @@ export default function Home() {
             </div>
           </div>
         )}
-        {contractLoading && <p></p>}
+        {contractLoading && <p>Loading...</p>}
 
         <ConnectWallet theme="dark" className={styles.connect} />
       </div>
