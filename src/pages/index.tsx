@@ -49,15 +49,8 @@ export default function Home() {
       <div className={styles.card}>
         <h3>Conteudo exclusivo desbloqueado!</h3>
         <p>Sua NFT desbloqueou o conteudo exclusivo, aproveite bem :D</p>
-        <p>Clique em{" "}
-        <a
-          className={styles.link}
-          href="https://launchpad.heymint.xyz/mint/blpass"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          continuar
-        </a>
+        <p>
+        
         
 
         </p>
@@ -66,8 +59,8 @@ export default function Home() {
             <MediaRenderer
               src={contractMetadata.image}
               alt={contractMetadata.name}
-              width="70px"
-              height="70px"
+              width="90px"
+              height="90px"
             />
             <div className={styles.nftDetails}>
               <h4>{contractMetadata.name}</h4>
@@ -75,7 +68,7 @@ export default function Home() {
             </div>
           </div>
         )}
-        {contractLoading && <p>Loading...</p>}
+        {contractLoading && <p></p>}
 
         <ConnectWallet theme="dark" className={styles.connect} />
       </div>
