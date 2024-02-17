@@ -1,4 +1,5 @@
 {
+  "homepage": "https://changzaoo.github.io/nftgatedwebsite/",
   "name": "nftgatedwebsite",
   "version": "0.1.0",
   "private": true,
@@ -6,6 +7,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "lint": "next lint"
   },
   "dependencies": {
@@ -21,6 +24,7 @@
     "@types/react": "18.2.17",
     "eslint": "8.11.0",
     "eslint-config-next": "^13",
+    "gh-pages": "^6.1.1",
     "typescript": "5.1.6"
   }
 }
