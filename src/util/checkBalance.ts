@@ -14,8 +14,8 @@ export default async function checkBalance(sdk, address) {
 
   const features = detectFeatures(contract.abi);
 
-  if (features?.ERC1155?.enabled) {
-    balance = await contract.erc1155.balanceOf(address, erc721TokenId);
+  if (features?.ERC721?.enabled) {
+    balance = await contract.erc721.balanceOf(address, erc721TokenId);
   } else if (features?.ERC721?.enabled) {
     balance = await contract.erc721.balanceOf(address);
   } else if (features?.ERC20?.enabled) {
