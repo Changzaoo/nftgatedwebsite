@@ -34,44 +34,16 @@ export default function Home() {
       <h1 className={styles.h1}>Balde</h1>
 
       <p className={styles.explain}>
-       Conteudo exclusivo para os holders do Balde lab Pass, faça o mint{" "}
-        <a
-          className={styles.link}
-          href="https://balde-silver.vercel.app/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          aqui
-        </a>
-        .{" "}
+       Conteudo exclusivo para os holders do Balde lab Pass
       </p>
-
+      
       <div className={styles.card}>
         <h3>Conteudo exclusivo desbloqueado!</h3>
-        <p>Sua NFT desbloqueou o conteudo exclusivo, aproveite bem :D</p>
-        <p>Clique em{" "}
+        <p>Sua NFT desbloqueou o conteudo exclusivo, aproveite!</p>
         
-      
         
 
-        </p>
-        {contractMetadata && (
-          <div className={styles.nft}>
-            <MediaRenderer
-              src={contractMetadata.image}
-              alt={contractMetadata.name}
-              width="70px"
-              height="70px"
-            />
-            <div className={styles.nftDetails}>
-              <h4>{contractMetadata.name}</h4>
-              <p>{contractMetadata.description}</p>
-            </div>
-          </div>
-        )}
-        {contractLoading && <p>Loading...</p>}
-
-        <ConnectWallet theme="dark" className={styles.connect} />
+        
       </div>
     </div>
   );
