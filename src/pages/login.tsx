@@ -52,16 +52,8 @@ export default function Login() {
       </div>
         {contractMetadata && (
           <div className={styles.nft}>
-            <MediaRenderer
-              src={contractMetadata.image}
-              alt={contractMetadata.name}
-              width="70px"
-              height="70px"
-            />
-            <div className={styles.nftDetails}>
-              <h4>{contractMetadata.name}</h4>
-              <p>{contractMetadata.description.substring(0, 100)}...</p>
-            </div>
+            
+            
           </div>
           
         )}
