@@ -13,8 +13,6 @@ import { contractAddress } from "../../const/yourDetails";
 import { Header } from "../components/Header";
 import styles from "../styles/Home.module.css";
 import checkBalance from "../util/checkBalance";
-import React from "react";
-import Link from "next/link";
 
 export default function Home() {
   const { isLoggedIn, isLoading } = useUser();
@@ -50,8 +48,8 @@ export default function Home() {
 
       <div className={styles.card}>
         <h3>Conteudo exclusivo desbloqueado!</h3>
-        <p>Parabens sua NFT desbloqueou o conteudo exclusivo</p>
-        <p>{" "}
+        <p>Sua NFT desbloqueou o conteudo exclusivo, aproveite bem :D</p>
+        <p>Clique em{" "}
         
       
         
