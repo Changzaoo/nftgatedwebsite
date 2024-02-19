@@ -12,6 +12,7 @@ export const Header = () => {
           alt="thirdweb"
           width={90}
           height={90}
+          
           className={styles.logo}
         />
       </Link>

@@ -5,13 +5,13 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  padding: 0;
+  padding: 0px;
   margin: 0;
 }
 
 /* Set core body defaults */
 body {
-  min-height: 100vh;
+  min-height: 90vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
 }
