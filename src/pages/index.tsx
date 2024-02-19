@@ -37,7 +37,7 @@ export default function Home() {
        Conteudo exclusivo para os holders do Balde lab Pass, faça o mint{" "}
         <a
           className={styles.link}
-          href="https://launchpad.heymint.xyz/mint/blpass"
+          href="https://balde-silver.vercel.app/"
           target="_blank"
           rel="noopener noreferrer"
         >
