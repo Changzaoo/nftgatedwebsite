@@ -13,6 +13,42 @@ import { contractAddress } from "../../const/yourDetails";
 import { Header } from "../components/Header";
 import styles from "../styles/Home.module.css";
 import checkBalance from "../util/checkBalance";
+import React from "react";
+import Link from "next/link";
+
+
+export const Navbar = () => {
+  return (
+    <>
+      <div className="w-full h-20 bg-emerald-800 sticky top-0">
+        <div className="container mx-auto px-4 h-full">
+          <div className="flex justify-between items-center h-full">
+            <Logo />
+            <ul className="hidden md:flex gap-x-6 text-white">
+              <li>
+                <Link href="/about">
+                  <p>About Us</p>
+                </Link>
+              </li>
+              <li>
+                <Link href="/services">
+                  <p>Services</p>
+                </Link>
+              </li>
+              <li>
+                <Link href="/contacts">
+                  <p>Contacts</p>
+                </Link>
+              </li>
+            </ul>
+            <Button />
+          </div>
+        </div>
+      </div>
+    </>
+  );
+}
+
 
 export default function Home() {
   const { isLoggedIn, isLoading } = useUser();
@@ -48,8 +84,8 @@ export default function Home() {
 
       <div className={styles.card}>
         <h3>Conteudo exclusivo desbloqueado!</h3>
-        <p>Sua NFT desbloqueou o conteudo exclusivo, aproveite bem :D</p>
-        <p>Clique em{" "}
+        <p>Parabens sua NFT desbloqueou o conteudo exclusivo</p>
+        <p>{" "}
         
       
         

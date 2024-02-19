@@ -1,5 +1,5 @@
 // Replace this with your contract address
-export const contractAddress = "0x09F054c1F8BF1a57f46978baA89d593A118221B5";
+export const contractAddress = "0x8e774E12A572d5B08EC1f149aA28FA4e56D764dE";
 
 // Replace this with your domain name.
 export const domainName = "balde-gold.vercel.app/";
