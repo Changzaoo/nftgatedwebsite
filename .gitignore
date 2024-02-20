@@ -33,3 +33,17 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+# next-video
+y/*
+!y/*.json
+!y/*.js
+!y/*.ts
+public/_next-video
+
+# next-video
+y/*
+!y/*.json
+!y/*.js
+!y/*.ts
+public/_next-video

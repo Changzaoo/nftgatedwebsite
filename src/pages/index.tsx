@@ -7,6 +7,7 @@ import {
 } from "@thirdweb-dev/react";
 import { ThirdwebSDK } from "@thirdweb-dev/sdk";
 import { useRouter } from "next/router";
+import Link from "next/link";
 import { useEffect } from "react";
 import { getUser } from "../../auth.config";
 import { contractAddress } from "../../const/yourDetails";
@@ -40,7 +41,12 @@ export default function Home() {
       <div className={styles.card}>
         <h3>Conteudo exclusivo desbloqueado!</h3>
         <p>Sua NFT desbloqueou o conteudo exclusivo, aproveite!</p>
-        
+        <div className={styles.heroCtaContainer}>
+                <Link className={styles.heroCta} href="/content">
+                  Começar
+                </Link>
+                
+              </div>
         
 
         

@@ -27,8 +27,9 @@
   "include": [
     "next-env.d.ts",
     "**/*.ts",
-    "**/*.tsx"
-  ],
+    "**/*.tsx",
+    "video.d.ts"
+, "src/pages/ReactVideoPlayer.js"  ],
   "exclude": [
     "node_modules"
   ]

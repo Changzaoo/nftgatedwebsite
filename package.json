@@ -14,8 +14,12 @@
     "@thirdweb-dev/sdk": "^4",
     "ethers": "^5",
     "next": "^13",
+    "next-cloudinary": "^5.20.0",
+    "next-video": "^0.14.3",
     "react": "^18.2",
-    "react-dom": "^18.2"
+    "react-dom": "^18.2",
+    "react-html5video": "^2.5.1",
+    "react-player": "^2.14.1"
   },
   "devDependencies": {
     "@types/react": "18.2.17",
