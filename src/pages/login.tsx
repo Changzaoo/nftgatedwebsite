@@ -11,9 +11,11 @@ import { useRouter } from "next/router";
 import { useEffect } from "react";
 import { getUser } from "../../auth.config";
 import { contractAddress } from "../../const/yourDetails";
-import { Header } from "../components/Header";
+import { Navbar } from "../components/Navbar";
 import styles from "../styles/Home.module.css";
 import checkBalance from "../util/checkBalance";
+import type { NextPage } from "next";
+
 
 export default function Login() {
   const { contract } = useContract(contractAddress);
@@ -31,7 +33,7 @@ export default function Login() {
 
   return (
     <div className={styles.container}>
-      <Header />
+      <Navbar />
       <h2 className={styles.heading}>Balde lab content </h2>
       <h1 className={styles.h1}>Balde</h1>
 

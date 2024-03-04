@@ -1,6 +1,7 @@
 import { ThirdwebProvider } from "@thirdweb-dev/react";
 import Head from "next/head";
 import { domainName } from "../../const/yourDetails";
+import { Navbar } from "../components/Navbar";
 import "../styles/globals.css";
 
 // This is the chain your dApp will work on.
@@ -16,14 +17,10 @@ function MyApp({ Component, pageProps }) {
         authUrl: "/api/auth",
       }}
     >
-      <Head>
-        <title>balde lab content</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta
-          name="description"
-          content="Learn how to use the thirdweb Auth SDK to create an NFT Gated Website"
-        />
-      </Head>
+     
+        {/* Render the navigation menu above each component */}
+        <Navbar />
+      {/* Render the actual component (page) */}
       <Component {...pageProps} />
     </ThirdwebProvider>
   );

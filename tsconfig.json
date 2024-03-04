@@ -24,12 +24,7 @@
       ],
     }
   },
-  "include": [
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx",
-    "video.d.ts"
-, "src/pages/ReactVideoPlayer.js"  ],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/staket.js", "src/pages/ReactVideoPlayer.js"],
   "exclude": [
     "node_modules"
   ]
