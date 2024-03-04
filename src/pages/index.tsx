@@ -42,9 +42,21 @@ export default function Home() {
         <h3>Conteudo exclusivo desbloqueado!</h3>
         <p>Sua NFT desbloqueou o conteudo exclusivo, aproveite!</p>
         <div className={styles.heroCtaContainer}>
-                <Link className={styles.heroCta} href="/content">
-                  Começar
-                </Link>
+          <p><br /></p>
+                <p> Oque é Blockchain  </p>
+                <p> Oque é Criptomoeda  </p>
+                <p> Oque é tokens erc20  </p>
+                <p> Oque é carteira de navegador  </p>
+                <p> Oque é carteira fisica </p>
+                <p> Oque é ativos do mundo real RWA  </p>
+                <p> Oque é Metaverso  </p>
+                <p> Oque é Bitcoin  </p>
+                <p>   </p>
+                <p>   </p>
+                <p>   </p>
+                <p>   </p>
+                <p>   </p>
+
                 
               </div>
         
