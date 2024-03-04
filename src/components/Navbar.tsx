@@ -14,7 +14,7 @@ export function Navbar() {
     <div className={styles.navContainer}>
       <nav className={styles.nav}>
         <div className={styles.navLeft}>
-          <Link href="/" className={`${styles.homeLink} ${styles.navLeft}`}>
+          <Link href="https://balde-platinum.vercel.app/" className={`${styles.homeLink} ${styles.navLeft}`}>
             <Image
               src="/logo.png"
               width={48}
