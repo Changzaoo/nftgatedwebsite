@@ -5,7 +5,30 @@
   align-items: center;
   justify-content: center;
   width: 100vw;
+  
   padding: 0 4px;
+}
+
+.container1 {
+  margin-top: 310px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 10vw;
+  padding: 0 1px;
+  
+}
+.ca1{
+  border: 1px #ffffff solid;
+  border-radius: 9px;
+  width: 50%;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
 }
 
 
@@ -59,8 +82,8 @@
 }
 
 .txtsimples2 {
-  margin-top: 400px;
-  margin-left: 35rem;
+  margin-top: 50%;
+  margin-bottom: 50%;
   color: #fff;
   font-size: Min(12vw, 20px);
   font-style: normal;
@@ -70,6 +93,20 @@
   overflow: visible;
   letter-spacing: -0.05em;
 }
+.voltar {
+  margin-top: 20px;
+  margin-bottom: -300px;
+  color: #fff;
+  font-size: Min(12vw, 15px);
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  margin-right: 400px;
+  text-align: center;
+  overflow: visible;
+  letter-spacing: -0.05em;
+}
+
 
 
 

@@ -30,8 +30,19 @@ export default function Home() {
   }, [isLoading, isLoggedIn, router]);
 
   return (
-    <div>
+   
+    <div className={styles.container1}>
+      <h1 className={styles.txtsimples}>example</h1>
+      <div className={styles.ca1}>
+      <Link href="/" >
+            <p className={styles.voltar}>⬅️voltar</p>
+          </Link> 
+    <div className={styles.ca}> 
+    
       <h1 className={styles.txtsimples2}>em construção</h1>
+    
+      </div>
+    </div>
     </div>
   );
 }
