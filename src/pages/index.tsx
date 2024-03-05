@@ -34,10 +34,11 @@ export default function Home() {
       <Navbar />
       <h1 className={styles.txtsimples}>Conteudo</h1>
       <p >
-       Seu conteudo foi desbloqueado, mantenha o cartão em carteira para ter acesso!
+       O conteudo foi desbloqueado, mantenha o cartão em carteira para ter acesso!
       </p>
       <div className={styles.ca}>
-        <h3 >Conteudo educacional exclusivo!</h3>   
+        <h3 className={styles.txtsimples3} >Conteudo exclusivo! </h3>   
+        <p> conteudo para nivelar a comunidade!</p>
         <div className={styles.grid}>   
         <Link href="/blockchain" className={`${styles.tokenGrid} ${styles.card1}`}>
             

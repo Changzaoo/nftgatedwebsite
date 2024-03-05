@@ -1,12 +1,11 @@
 .container {
-  margin-top: 70px;
+  margin-top: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 100vw;
-  
-  padding: 0 4px;
+  padding: 6em;
 }
 
 .container1 {
@@ -73,8 +72,24 @@
   margin: 4px 500px 0px;
   color: #fff;
   font-size: Min(12vw, 20px);
+  margin-top: -60px;
   font-style: normal;
   font-weight: 700;
+  width: 1000px;
+  letter-spacing: 1.2px;
+  text-align: center;
+  overflow: visible;
+  letter-spacing: -0.05em;
+}
+.txtsimples3 {
+  margin: 4px 500px 0px;
+  color: #fff;
+  font-size: Min(12vw, 20px);
+  margin-top: -23px;
+  font-style: normal;
+  font-weight: 700;
+  width: 1000px;
+  padding: 0.5em;
   letter-spacing: 1.2px;
   text-align: center;
   overflow: visible;
@@ -107,36 +122,26 @@
   letter-spacing: -0.05em;
 }
 
-
-
-
 .grid {
   border-radius: 16px;
-  width: 10%;
-  padding: 0.5em;
   margin-top: 1px;
-  margin-left: -170px;
-  display: row;
+  display: contents;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 1px;
-  width: 53%;
-  flex-wrap: wrap;
+  
 }
 
 .grid1 {
   border-radius: 16px;
-  width: 10%;
-  padding: 0.5em;
-  margin-top: -442px;
-  margin-left: 370px;
-  display: flex;
-  flex-direction: row;
+  width: 20%;
+  display: contents;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 1px;
-  width: 53%;
+  
   flex-wrap: wrap;
 }
 .tokenGrid {
@@ -177,7 +182,7 @@
   border: 1px #ffffff solid;
   border-radius: 9px;
   margin-left: 460px;
-  width: 200%;
+  width: 220%;
   padding: 0.5em;
   display: flex;
   flex-direction: column;
@@ -195,21 +200,21 @@
 .ca {
   border: 1px #ffffff solid;
   border-radius: 9px;
-  width: 50%;
-  padding: 1em;
+  width: 400px;
+  padding: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 3rem;
+  margin-top: 3px;
 }
 
 .card1 {
   border: 1px #ffffff solid;
   border-radius: 9px;
-  width: 62%;
+  width: 80%;
   padding: 0.5em;
   display: flex;
-  margin-left: -10%;
+
   flex-direction: row;
   overflow: visible;
   align-items: left;
