@@ -34,14 +34,14 @@ export default function Login() {
   return (
     <div className={styles.container}>
       <Navbar />
-      <h1 className={styles.h1}>Balde</h1>
+      <h1 className={styles.txtsimples}>Conteudo</h1>
       <h2 className={styles.heading}>Holder Station</h2>
       <div className={styles.explain}>
       <p >
       Para ter acesso ao conteudo exclusivo, tenha um ou mais cartões de acesso em carteira!
       </p>
       </div>
-      <div className={styles.txtsimples}>
+      <div className={styles.txtsimples1}>
       <p >
       conecte a carteira novamente para resgatar o cartão ⬇️
       </p>

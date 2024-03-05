@@ -13,6 +13,7 @@ import { getUser } from "../../auth.config";
 import { contractAddress } from "../../const/yourDetails";
 import { Navbar } from "../components/Navbar";
 import styles from "../styles/Home.module.css";
+import Image from "next/image";
 import checkBalance from "../util/checkBalance";
 
 export default function Home() {
@@ -31,37 +32,136 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Navbar />
-      <h2 className={styles.heading}>Balde lab content</h2>
-      <h1 className={styles.h1}>Balde</h1>
-
-      <p className={styles.explain}>
-       Conteudo exclusivo para os holders do Balde lab Pass
+      <h1 className={styles.txtsimples}>Conteudo</h1>
+      <p >
+       Seu conteudo foi desbloqueado, mantenha o cartão em carteira para ter acesso!
       </p>
-      
-      <div className={styles.card}>
-        <h3>Conteudo exclusivo desbloqueado!</h3>
-        <p>Sua NFT desbloqueou o conteudo exclusivo, aproveite!</p>
-        <div className={styles.heroCtaContainer}>
-          <p><br /></p>
-                <p> Oque é Blockchain  </p>
-                <p> Oque é Criptomoeda  </p>
-                <p> Oque é tokens erc20  </p>
-                <p> Oque é carteira de navegador  </p>
-                <p> Oque é carteira fisica </p>
-                <p> Oque é ativos do mundo real RWA  </p>
-                <p> Oque é Metaverso  </p>
-                <p> Oque é Bitcoin  </p>
-                <p>   </p>
-                <p>   </p>
-                <p>   </p>
-                <p>   </p>
-                <p>   </p>
+      <div className={styles.ca}>
+        <h3 >Conteudo educacional exclusivo!</h3>   
+        <div className={styles.grid}>   
+        <Link href="/blockchain" className={`${styles.tokenGrid} ${styles.card1}`}>
+            
+            <Image
+              src="/blockchain.png"
+              width={48}
+              height={48}
+              alt="NFT marketplace sample logo"
+            />
+            <p className={styles.tokenGrid}>blockchain</p>
+          </Link> 
+          <Link href="/criptomoeda" className={`${styles.tokenGrid} ${styles.card1}`}>
+            
+            <Image
+              src="/criptomoeda.png"
+              width={48}
+              height={48}
+              alt="NFT marketplace sample logo"
+            />
+            <p className={styles.tokenGrid}>criptomoedas</p>
+          </Link> 
+          <Link href="/tokenerc20" className={`${styles.tokenGrid} ${styles.card1}`}>
+            
+            <Image
+              src="/erc20.png"
+              width={48}
+              height={48}
+              alt="NFT marketplace sample logo"
+            />
+            <p className={styles.tokenGrid}>token erc20</p>
+          </Link>
+          <Link href="navwallet" className={`${styles.tokenGrid} ${styles.card1}`}>
+            
+            <Image
+              src="/navegador.png"
+              width={48}
+              height={48}
+              alt="NFT marketplace sample logo"
+            />
+            <p className={styles.tokenGrid}>carteira de navegador</p>
+          </Link>
+          <Link href="/hardwarewallet" className={`${styles.tokenGrid} ${styles.card1}`}>
+            
+            <Image
+              src="/hardware.png"
+              width={48}
+              height={48}
+              alt="NFT marketplace sample logo"
+            />
+            <p className={styles.tokenGrid}>carteira fisica</p>
+          </Link>
+          <Link href="/rwa" className={`${styles.tokenGrid} ${styles.card1}`}>
+            
+            <Image
+              src="/rwa.png"
+              width={48}
+              height={48}
+              alt="NFT marketplace sample logo"
+            />
+            <p className={styles.tokenGrid}>RWA</p>
+          </Link>
+          </div>  
+              
+          <div className={styles.grid1}>
 
-                
-              </div>
-        
-
-        
+           <Link href="/metaverso" className={`${styles.tokenGrid} ${styles.card1}`}>
+            
+            <Image
+              src="/metaverso.png"
+              width={48}
+              height={48}
+              alt="NFT marketplace sample logo"
+            />
+            <p className={styles.tokenGrid}>metaverso</p>
+          </Link> 
+          <Link href="/bitcoin" className={`${styles.tokenGrid1} ${styles.card1}`}>
+            
+            <Image
+              src="/bitcoin.png"
+              width={48}
+              height={48}
+              alt="NFT marketplace sample logo"
+            />
+            <p className={styles.tokenGrid}>bitcoin</p>
+          </Link> 
+          <Link href="/ethereum" className={`${styles.tokenGrid1} ${styles.card1}`}>      
+            <Image
+              src="/ethereum.png"
+              width={48}
+              height={48}
+              alt="NFT marketplace sample logo"
+            />
+            <p className={styles.tokenGrid}>ethereum</p>
+          </Link> 
+          <Link href="/layer2" className={`${styles.tokenGrid1} ${styles.card1}`}>    
+            <Image
+              src="/layer2.png"
+              width={48}
+              height={48}
+              alt="NFT marketplace sample logo"
+            />
+            <p className={styles.tokenGrid}>layer2</p>
+          </Link> 
+          <Link href="/defi" className={`${styles.tokenGrid1} ${styles.card1}`}>
+            
+            <Image
+              src="/defi.png"
+              width={48}
+              height={48}
+              alt="NFT marketplace sample logo"
+            />
+            <p className={styles.tokenGrid}>DeFi</p>
+          </Link> 
+          <Link href="/nft" className={`${styles.tokenGrid} ${styles.card1}`}>
+            
+            <Image
+              src="/nft.png"
+              width={48}
+              height={48}
+              alt="NFT marketplace sample logo"
+            />
+            <p className={styles.tokenGrid}>Nft</p>
+          </Link> 
+          </div>
       </div>
     </div>
   );

@@ -1,5 +1,5 @@
 .container {
-  margin-top: 50px;
+  margin-top: 70px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -8,12 +8,13 @@
   padding: 0 4px;
 }
 
+
 .heading {
   font-weight: 700;
   margin-top: 1px;
   font-size: 1rem;
   color: transparent;
-  background: linear-gradient(90.35deg, #ffffff 3.41%, #2b2a2a 90.33%);
+  background: #ffffff;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -23,7 +24,7 @@
 .h1 {
   margin: 0px;
   margin-top: 10px;
-  background: linear-gradient(90.35deg, #ffffff 3.41%, #2b2a2a 90.33%);
+  background:#ffffff; 
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -45,26 +46,148 @@
   overflow: visible;
   letter-spacing: -0.05em;
 }
+.txtsimples {
+  margin: 4px 500px 0px;
+  color: #fff;
+  font-size: Min(12vw, 20px);
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  text-align: center;
+  overflow: visible;
+  letter-spacing: -0.05em;
+}
 
-.card {
+.txtsimples2 {
+  margin-top: 400px;
+  margin-left: 35rem;
+  color: #fff;
+  font-size: Min(12vw, 20px);
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  text-align: center;
+  overflow: visible;
+  letter-spacing: -0.05em;
+}
+
+
+
+.grid {
+  border-radius: 16px;
+  width: 10%;
+  padding: 0.5em;
+  margin-top: 1px;
+  margin-left: -170px;
+  display: row;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1px;
+  width: 53%;
+  flex-wrap: wrap;
+}
+
+.grid1 {
+  border-radius: 16px;
+  width: 10%;
+  padding: 0.5em;
+  margin-top: -442px;
+  margin-left: 370px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1px;
+  width: 53%;
+  flex-wrap: wrap;
+}
+.tokenGrid {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1%;
+  width: 120px;
+  max-width: 95vw;
+  flex-wrap: wrap;
+  margin: 0.1px 0;
+}
+
+.tokenGrid1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1%;
+  width: 1200px;
+  max-width: 95vw;
+  flex-wrap: wrap;
+  margin: 0.1px 0;
+}
+
+
+.code {
+  background: #030202;
+  border-radius: 5px;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+.card2 {
   border: 1px #ffffff solid;
   border-radius: 9px;
+  margin-left: 460px;
+  width: 200%;
+  padding: 0.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 5px;
+}
+.card2:hover,
+.card2:focus,
+.card2:active {
+  background-color: #272c34;
+  color: #ffffff;
+  border-color: #ffffff;
+  border-radius: 9px;
+}
+.ca {
+  border: 1px #ffffff solid;
+  border-radius: 9px;
+  width: 50%;
   padding: 1em;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  margin-top: 1rem;
+  align-items: center;
+  margin-top: 3rem;
 }
+
 .card1 {
   border: 1px #ffffff solid;
-  border-radius: 2px;
-  padding: 2px;
+  border-radius: 9px;
+  width: 62%;
+  padding: 0.5em;
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  margin-top: 1rem;
+  margin-left: -10%;
+  flex-direction: row;
+  overflow: visible;
+  align-items: left;
+  margin-top: 5px;
 }
-.txtsimples {
+
+.card1:hover,
+.card1:focus,
+.card1:active {
+  background-color: #272c34;
+  color: #ffffff;
+  border-color: #ffffff;
+  border-radius: 9px;
+}
+.txtsimples1 {
   margin: 10px 10px 10px;
   color: #fff;
   font-size: Min(12vw, 15px);
@@ -120,6 +243,9 @@
   margin-left: 0px;
   align-items: flex-start;
 }
+
+
+
 
 @media screen and (max-width: 700px) {
   .connect,
