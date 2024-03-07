@@ -31,13 +31,15 @@ export default function Home() {
 
   return (
    
-    <div className={styles.container1}>
-      <h1 className={styles.txtsimples}>example</h1>
-      <div className={styles.ca1}>
-      <Link href="/" >
+    <div className={styles.conteudo}>
+      <h1 className={styles.txtconteudo}>Padrões ERC</h1>
+      <Link href="/index3" >
             <p className={styles.voltar}>⬅️voltar</p>
-          </Link> 
-    <div className={styles.ca}> 
+          </Link>
+          <div className={styles.ca}>
+      <div className={styles.ca1}>
+       
+     
     
       <h1 className={styles.txtsimples2}>em construção</h1>
     

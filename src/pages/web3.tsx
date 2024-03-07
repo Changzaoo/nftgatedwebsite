@@ -32,8 +32,8 @@ export default function Home() {
   return (
    
     <div className={styles.conteudo}>
-      <h1 className={styles.txtconteudo}>Blockchain</h1>
-      <Link href="/" >
+      <h1 className={styles.txtconteudo}>Web3</h1>
+      <Link href="/index3" >
             <p className={styles.voltar}>⬅️voltar</p>
           </Link>
           <div className={styles.ca}>

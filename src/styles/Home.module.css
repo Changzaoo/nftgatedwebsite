@@ -19,16 +19,6 @@
   padding: 0 1px;
   
 }
-.ca1{
-  border: 1px #ffffff solid;
-  border-radius: 9px;
-  width: 50%;
-  padding: 2em;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 1rem;
-}
 
 
 .heading {
@@ -81,6 +71,55 @@
   overflow: visible;
   letter-spacing: -0.05em;
 }
+
+.conteudo {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 10vw;
+  padding: 0 1px;
+  
+}
+
+.txtconteudo {
+  margin: 4px 500px 0px;
+  color: #fff;
+  font-size: Min(12vw, 20px);
+  margin-top: 660px;
+  font-style: normal;
+  font-weight: 700;
+  width: 1000px;
+  letter-spacing: 1.2px;
+  text-align: center;
+  overflow: visible;
+  letter-spacing: -0.05em;
+}
+
+.voltar {
+  margin-top: 0px;
+  margin-bottom: px;
+  color: #fff;
+  font-size: Min(12vw, 15px);
+  max-width: 100px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  margin-left: -220px;
+  text-align: center;
+  letter-spacing: -0.05em;
+}
+.voltar:hover,
+.voltar:focus,
+.voltar:active {
+  background-color: #272c34;
+  color: #ffffff;
+  border-color: #ffffff;
+  border-radius: 9px;
+}
+
 .txtsimples3 {
   margin: 4px 500px 0px;
   color: #fff;
@@ -104,19 +143,6 @@
   font-style: normal;
   font-weight: 700;
   letter-spacing: 1.2px;
-  text-align: center;
-  overflow: visible;
-  letter-spacing: -0.05em;
-}
-.voltar {
-  margin-top: 20px;
-  margin-bottom: -300px;
-  color: #fff;
-  font-size: Min(12vw, 15px);
-  font-style: normal;
-  font-weight: 700;
-  letter-spacing: 1.2px;
-  margin-right: 400px;
   text-align: center;
   overflow: visible;
   letter-spacing: -0.05em;
@@ -178,11 +204,57 @@
     Bitstream Vera Sans Mono, Courier New, monospace;
 }
 
+.back {
+  border: 1px #ffffff solid;
+  border-radius: 9px;
+  margin-left: -200px;
+  width: 140px;
+  color: #ffffff;
+  font-weight: 700;
+  padding: 0.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: -41px;
+}
+.back:hover,
+.back:focus,
+.back:active {
+  background-color: #272c34;
+  color: #ffffff;
+  border-color: #ffffff;
+  border-radius: 9px;
+}
+
+.next {
+  border: 1px #ffffff solid;
+  border-radius: 9px;
+  color: #fff;
+  margin-left: 260px;
+  font-weight: 700;
+  width: 140px;
+  padding: 0.5em;
+  display: flex;
+  flex-direction: center;
+  align-items: flex-start;
+  margin-top: 5px;
+}
+.next:hover,
+.next:focus,
+.next:active {
+  background-color: #272c34;
+  color: #ffffff;
+  border-color: #ffffff;
+  border-radius: 9px;
+}
+
 .card2 {
   border: 1px #ffffff solid;
   border-radius: 9px;
-  margin-left: 460px;
-  width: 220%;
+  margin-left: 490px;
+  width: 80%;
+  font-weight: 700;
+  color: #ffffff;
   padding: 0.5em;
   display: flex;
   flex-direction: column;
@@ -192,6 +264,28 @@
 .card2:hover,
 .card2:focus,
 .card2:active {
+  background-color: #272c34;
+  color: #ffffff;
+  border-color: #ffffff;
+  border-radius: 9px;
+}
+
+
+.proxindex {
+  border: 1px #ffffff solid;
+  border-radius: 9px;
+  font-weight: 700;
+  width: 100%;
+  color: #ffffff;
+  padding: 0.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 5px;
+}
+.proxindex:hover,
+.proxindex:focus,
+.proxindex:active {
   background-color: #272c34;
   color: #ffffff;
   border-color: #ffffff;
@@ -208,13 +302,27 @@
   margin-top: 3px;
 }
 
+.ca1{
+  border: 1px #ffffff solid;
+  border-radius: 9px;
+  width: 120%;
+  height: 150%;
+  padding: 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1px;
+}
+
+
 .card1 {
   border: 1px #ffffff solid;
   border-radius: 9px;
   width: 80%;
   padding: 0.5em;
+  font-weight: 700;
   display: flex;
-
+  color: #ffffff;
   flex-direction: row;
   overflow: visible;
   align-items: left;

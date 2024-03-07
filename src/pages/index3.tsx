@@ -40,77 +40,78 @@ export default function Home() {
         <h3 className={styles.txtsimples3} >Conteudo exclusivo! </h3>   
         <p> conteudo para nivelar a comunidade!</p>
         <div className={styles.grid}>   
-        <Link href="/blockchain" className={`${styles.tokenGrid} ${styles.card1}`}>
+        <Link href="/inscriptions" className={`${styles.tokenGrid} ${styles.card1}`}>
             
             <Image
-              src="/blockchain.png"
+              src="/inscriptions.png"
               width={48}
               height={48}
               alt="NFT marketplace sample logo"
             />
-            <p className={styles.tokenGrid}>blockchain</p>
+            <p className={styles.tokenGrid}>inscriptions</p>
           </Link> 
-          <Link href="/criptomoeda" className={`${styles.tokenGrid} ${styles.card1}`}>
+          <Link href="/ercstandard" className={`${styles.tokenGrid1} ${styles.card1}`}>
             
             <Image
-              src="/criptomoeda.png"
+              src="/padroes.png"
               width={48}
               height={48}
-              quality={100}
               alt="NFT marketplace sample logo"
             />
-            <p className={styles.tokenGrid}>criptomoedas</p>
+            <p className={styles.tokenGrid}>padrões erc</p>
           </Link> 
-          <Link href="/discord" className={`${styles.tokenGrid} ${styles.card1}`}>
-            
+          <Link href="/ercstandard" className={`${styles.tokenGrid1} ${styles.card1}`}>      
             <Image
-              src="/discord.png"
-              width={48}
-              height={48}
-              quality={100}
-              alt="NFT marketplace sample logo"
-            />
-            <p className={styles.tokenGrid}>discord</p>
-          </Link>
-          <Link href="navwallet" className={`${styles.tokenGrid} ${styles.card1}`}>
-            
-            <Image
-              src="/navegador.png"
+              src="/web3.png"
               width={48}
               height={48}
               alt="NFT marketplace sample logo"
             />
-            <p className={styles.tokenGrid}>carteira de navegador</p>
-          </Link>
-          <Link href="/hardware" className={`${styles.tokenGrid} ${styles.card1}`}>
-            
+            <p className={styles.tokenGrid}>web3</p>
+          </Link> 
+          <Link href="/comunidades" className={`${styles.tokenGrid1} ${styles.card1}`}>    
             <Image
-              src="/hardware.png"
+              src="/comunidades.png"
               width={48}
               height={48}
               alt="NFT marketplace sample logo"
             />
-            <p className={styles.tokenGrid}>carteira fisica</p>
-          </Link>
-          <Link href="/pool" className={`${styles.tokenGrid} ${styles.card1}`}>
+            <p className={styles.tokenGrid}>comunidades </p>
+          </Link> 
+          <Link href="/defixcefi" className={`${styles.tokenGrid1} ${styles.card1}`}>
             
             <Image
-              src="/pool.png"
+              src="/cefixdefi.png"
               width={48}
               height={48}
               alt="NFT marketplace sample logo"
             />
-            <p className={styles.tokenGrid}>pools</p>
-          </Link>
+            <p className={styles.tokenGrid}>CeFi x DeFi</p>
+          </Link> 
+          <Link href="/dapps" className={`${styles.tokenGrid} ${styles.card1}`}>
+            
+            <Image
+              src="/dapps.png"
+              width={48}
+              height={48}
+              alt="NFT marketplace sample logo"
+            />
+            <p className={styles.tokenGrid}>Dapps</p>
+          </Link> 
           </div>  
           </div>
-          <div><Link href="/index2" className={`${styles.tokenGrid} ${styles.proxindex}`}>
+          <div><Link href="/index4" className={`${styles.tokenGrid} ${styles.next}`}>
             
             
             <p className={styles.tokenGrid}>Proximo</p>
           </Link></div>
+          <div><Link href="/index2" className={`${styles.tokenGrid} ${styles.back}`}>
+            
+            
+            <p className={styles.tokenGrid}>Voltar</p>
+          </Link></div>
       </div>
-   
+    
   );
 }
 

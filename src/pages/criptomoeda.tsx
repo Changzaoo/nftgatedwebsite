@@ -31,13 +31,15 @@ export default function Home() {
 
   return (
    
-    <div className={styles.container1}>
-      <h1 className={styles.txtsimples}>example</h1>
-      <div className={styles.ca1}>
+    <div className={styles.conteudo}>
+      <h1 className={styles.txtconteudo}>Criptomoedas</h1>
       <Link href="/" >
             <p className={styles.voltar}>⬅️voltar</p>
-          </Link> 
-    <div className={styles.ca}> 
+          </Link>
+          <div className={styles.ca}>
+      <div className={styles.ca1}>
+       
+     
     
       <h1 className={styles.txtsimples2}>em construção</h1>
     

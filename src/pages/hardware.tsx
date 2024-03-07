@@ -32,7 +32,7 @@ export default function Home() {
   return (
    
     <div className={styles.conteudo}>
-      <h1 className={styles.txtconteudo}>Blockchain</h1>
+      <h1 className={styles.txtconteudo}>Carteiras Fisicas</h1>
       <Link href="/" >
             <p className={styles.voltar}>⬅️voltar</p>
           </Link>
