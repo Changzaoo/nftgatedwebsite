@@ -28,7 +28,7 @@ export function Navbar() {
             </Link>
             </div>
             <div className={styles.card}>
-          <Link href="https://balde-platinum.vercel.app/buy" className={styles.link}>
+          <Link href="https://balde-platinum.vercel.app/cards" className={styles.link}>
           Cartões
             </Link>
             </div>
