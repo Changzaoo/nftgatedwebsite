@@ -80,6 +80,7 @@
   justify-content: center;
   width: 100vw;
   height: 10vw;
+  text-decoration:none; 
   padding: 0 1px;
   
 }
@@ -105,6 +106,7 @@
   font-size: Min(12vw, 15px);
   max-width: 100px;
   font-style: normal;
+  text-decoration:none; 
   font-weight: 700;
   letter-spacing: 1.2px;
   margin-left: -220px;
@@ -177,6 +179,7 @@
   justify-content: center;
   gap: 1%;
   width: 120px;
+  text-decoration:none; 
   max-width: 95vw;
   flex-wrap: wrap;
   margin: 0.1px 0;
@@ -188,6 +191,7 @@
   align-items: center;
   justify-content: center;
   gap: 1%;
+  text-decoration:none; 
   width: 1200px;
   max-width: 95vw;
   flex-wrap: wrap;
@@ -208,6 +212,7 @@
   border: 1px #ffffff solid;
   border-radius: 9px;
   margin-left: -200px;
+  text-decoration:none; 
   width: 140px;
   color: #ffffff;
   font-weight: 700;
@@ -230,6 +235,7 @@
   border: 1px #ffffff solid;
   border-radius: 9px;
   color: #fff;
+  text-decoration:none; 
   margin-left: 260px;
   font-weight: 700;
   width: 140px;
@@ -254,6 +260,7 @@
   margin-left: 490px;
   width: 80%;
   font-weight: 700;
+  text-decoration:none; 
   color: #ffffff;
   padding: 0.5em;
   display: flex;
