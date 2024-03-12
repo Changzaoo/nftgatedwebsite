@@ -14,7 +14,7 @@ export function Navbar() {
     <div className={styles.navContainer}>
       <nav className={styles.nav}>
         <div className={styles.navLeft}>
-          <Link href="https://balde-platinum.vercel.app/" className={`${styles.homeLink} ${styles.navLeft}`}>
+          <Link href="https://balde.vercel.app/" className={`${styles.homeLink} ${styles.navLeft}`}>
             <Image
               src="/logo.png"
               width={48}
@@ -23,42 +23,42 @@ export function Navbar() {
             />
           </Link>
           <div className={styles.card}>
-          <Link href="https://balde-platinum.vercel.app/mint" className={styles.link}>
+          <Link href="https://balde.vercel.app/mint" className={styles.link}>
               Mint
             </Link>
             </div>
             <div className={styles.card}>
-          <Link href="https://balde-platinum.vercel.app/cards" className={styles.link}>
+          <Link href="https://balde.vercel.app/cards" className={styles.link}>
           Cartões
             </Link>
             </div>
             <div className={styles.card}>
-            <Link href="https://balde-platinum.vercel.app/sell" className={styles.link}>
+            <Link href="https://balde.vercel.app/sell" className={styles.link}>
               Vender
             </Link>
             </div>
             <div className={styles.card}>
-            <Link href="https://balde-platinum.vercel.app/stake" className={styles.link}>
+            <Link href="https://balde.vercel.app/stake" className={styles.link}>
               NFT Stake
             </Link>
             </div>
             <div className={styles.card}>
-            <Link href="https://balde-platinum.vercel.app/staket" className={styles.link}>
+            <Link href="https://balde.vercel.app/staket" className={styles.link}>
               Token Stake
             </Link>
             </div>
             <div className={styles.card}>
-            <Link href="https://balde-platinum.vercel.app/dex" className={styles.link}>
+            <Link href="https://balde.vercel.app/dex" className={styles.link}>
               Swap
             </Link>
             </div>
             <div className={styles.card}>
-            <Link href="https://balde-gold.vercel.app/" className={styles.link}>
+            <Link href="https://zbalde.vercel.app/" className={styles.link}>
               Conteudo
             </Link>
             </div>
             <div className={styles.card}>
-            <Link href="https://balde-platinum.vercel.app/about" className={styles.link}>
+            <Link href="https://balde.vercel.app/about" className={styles.link}>
               Sobre
             </Link>     
             </div>   
